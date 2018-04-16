@@ -1,0 +1,22 @@
+.navbar ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar li a {
+  font-family: arial;
+  font-size: 13px;
+  padding: 20px 8px;
+}
+
+.google-img {
+  margin-top: 115px;
+  margin-left: 250px;
+  width: 464px;
+  height: 235px;
+}
