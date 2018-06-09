@@ -1,22 +1,64 @@
-.navbar ul {
-  list-style-type: none;
-  margin-top: 10px;
+body {
+  margin: 0;
   padding: 0;
 }
 
-.navbar li {
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+li {
   display: inline;
 }
 
-.navbar li a {
+
+.leftbar li a {
+  float: left;
   font-family: arial;
   font-size: 13px;
-  padding: 20px 8px;
+  padding: 8px;
 }
 
-.google-img {
-  margin-top: 115px;
-  margin-left: 250px;
+.rightbar li a {
+  float: right;
+  font-family: arial;
+  font-size: 13px;
+  padding: 8px;
+}
+
+.google_apps {
+  margin: 0;
+  margin-bottom: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.google_img {
   width: 464px;
   height: 235px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.search input[type=text] {
+  text-align: center;
+  width: 450px;
+  line-height: 32px;
+  padding: 20px 10px;
+  /*position: absolute;
+  float: right;
+  padding: 6px;
+  border: 3px solid #00B4CC;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;*/
+}
+
+.buttons {
+
 }
