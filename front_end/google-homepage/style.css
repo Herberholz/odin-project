@@ -40,13 +40,17 @@ li {
   display: block;
   margin: 0 auto;
   padding-top: 70px;
-  padding-bottom: 20px;
 }
 
-.search input[type=text] {
+.search {
+  margin: 0 auto;
   text-align: center;
-  width: 450px;
+  width: 360px;
   line-height: 32px;
+  "padding: 0px 400px;"
+}
+
+".search input[type=text] {
   padding: 20px 10px;
   /*position: absolute;
   float: right;
@@ -57,7 +61,7 @@ li {
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;*/
-}
+}"
 
 .buttons {
 
